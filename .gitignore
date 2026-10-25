@@ -1,0 +1,18 @@
+# Virtual Python-environment
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# PyCharm
+.idea/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local database (if SQLite is used later)
+*.db
+*.sqlite3
